@@ -87,6 +87,7 @@ a {
 .content p {
   margin-top: 20px;
   padding-right: 20px;
+ 
   margin-bottom: 20px;
   font-size: 1rem;
 }
@@ -303,51 +304,6 @@ a {
 
 
 
-/* Footer */
-.foot {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  background-color: #020617;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-footer {
-  flex-wrap: wrap;
-}
-.foot ul {
-  display: flex;
-  gap: 30px;
-}
-
-#copyright {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: start;
-  padding-right: 150px;
-  font-size: 1rem;
-}
-
-.animate {
-  border-radius: 50%;
-  font-size: 1.6rem;
-  background-color: #374151;
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 3px;
-  padding-left: 9px;
-  padding-right: 9px;
-  color: white;
-  transition: 0.3s ease;
-}
-
-
-.animate:hover {
-  transform: translateY(-9px);
-  cursor: pointer;
-}
-
 /* media */
 @media (max-width: 970px) {
   .hero {
@@ -375,7 +331,7 @@ footer {
     font-size: 0.86rem;
     width: 100%;
     padding-right: 0px;
-    text-align: left;
+    text-align: center;
   }
   #btn {
     padding: 10px 20px;
@@ -559,42 +515,9 @@ footer {
     transition: 0.3s ease;
     border: 2px solid transparent;
   }
-  /* Footer */
-  .foot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #111827;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  footer {
-
-    flex-wrap: wrap;
-    width: 130%;
-  }
-  .foot ul {
-    display: flex;
-    gap: 12px;
-  }
-  .animate {
-    border-radius: 50%;
-    font-size: 1rem;
-    background-color: #374151;
-    text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    color: white;
-    transition: 0.3s ease;
-  }
-  #copyright {
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: 0.7rem;
-  }
+  
+   
+  
   /* nav */
 
   .nav1 {
@@ -721,3 +644,41 @@ footer {
   border-width: 2px;
 }
 }
+
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  border: 1px solid slategrey;
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem;
+  margin: 0;
+}
+
+.social-links a:hover {
+  color: red;
+  
+}
+
+
+.footer-text {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
