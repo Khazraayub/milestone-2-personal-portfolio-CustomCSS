@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div>
+        
             <footer className="footer">
                 <div className='social-links'>
                     <a href="#"><FaFacebookF /></a>
@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <p className='footer-text'>Created by <span className='name'>Khazra Shaikh.</span> | All Rights Reserved</p>
             </footer>
-        </div>
+        
     )
 }
 
